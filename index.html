@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @font-face {
+            font-family: 'Poppins';
+            src: url(https://webdesk-beta.vercel.app/assets/fonts/Poppins-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: 'PoppinsB';
+            src: url(https://webdesk-beta.vercel.app/assets/fonts/Poppins-Bold.ttf);
+        }
+
+        @font-face {
+            font-family: 'PoppinsM';
+            src: url(https://webdesk-beta.vercel.app/assets/fonts/Poppins-Medium.ttf);
+        }
+
+        body {
+            background-color: #000;
+            color: #fff;
+            font-size: 18px;
+            font-family: 'Poppins', Arial;
+            overflow: hidden;
+            text-align: center;
+            margin: 0px;
+            padding: 20px;
+        }
+
+        p {
+            padding: 0px;
+            margin-bottom: 12px !important;
+            margin: 0px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Diagnosis</title>
+</head>
+
+<body>
+    <p style="font-size: 24px; font-family: 'PoppinsM', Arial;">WebDesk Error Diagnoser</p>
+    <p id="error-info"></p>
+    <p style="margin-top: 6px !important;">Error number: <span id="errn" style="font-family: 'PoppinsB', Arial;">?</span></p>
+    <script src="edb.js"></script>
+</body>
+
+</html>
