@@ -21,6 +21,7 @@ const errordb = [
     { e: "4", info: `An error occurred while decrypting something. Can usually be fixed by restarting and logging in again. Error details are provided: "${getp('d')}"` },
     { e: "5", info: `An error occurred while trying to read a file. Can usually be fixed by restarting. Error details are provided: "${getp('d')}"` },
     { e: "6", info: `A system file is missing. Can be fixed by erasing. Error details are provided: "${getp('d')}"` },
+    { e: "7", info: `WebDesk can't safely operate anymore. Error details are provided: "${getp('d')}"` },
 ];
 
 function dei(errorSource) {
